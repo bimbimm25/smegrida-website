@@ -102,15 +102,15 @@ export default function Footer() {
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3 text-sm text-slate-500">
                                 <MapPin size={16} className="text-slate-400 shrink-0 mt-0.5" />
-                                <p>Jl. Raya Kemiri No. XX, Kabupaten Sidoarjo, Jawa Timur 61234</p>
+                                <p>Jl. Jenggolo III No.61, Pucang, Kec. Sidoarjo, Kabupaten Sidoarjo, Jawa Timur 61219</p>
                             </li>
                             <li className="flex items-center gap-3 text-sm text-slate-500">
                                 <Phone size={16} className="text-slate-400 shrink-0" />
-                                <p>(031) 1234567</p>
+                                <p>(031) 8961349</p>
                             </li>
                             <li className="flex items-center gap-3 text-sm text-slate-500">
                                 <Mail size={16} className="text-slate-400 shrink-0" />
-                                <p>info@smkspgri2sda.sch.id</p>
+                                <p>info@smkspgri2sda</p>
                             </li>
                             <li className="flex items-start gap-3 text-sm text-slate-500">
                                 <Clock size={16} className="text-slate-400 shrink-0 mt-0.5" />

@@ -132,13 +132,8 @@ export default function HubunganIndustri() {
                             </motion.div>
                         ))}
                     </motion.div>
-
                 </div>
             </section>
-
-            
-
-
         </main>
     );
 }
