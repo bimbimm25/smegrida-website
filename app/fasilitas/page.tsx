@@ -120,7 +120,7 @@ export default function HalamanFasilitas() {
             <Navbar />
 
             {/* 1. HERO SECTION */}
-            <section className="relative min-h-[550px] h-[70vh] max-h-[650px] w-full bg-slate-50 overflow-hidden border-b border-slate-100 flex items-center justify-center px-6 pt-24">
+            <section className="relative min-h-137.5 h-[70vh] max-h-162.5 w-full bg-slate-50 overflow-hidden border-b border-slate-100 flex items-center justify-center px-6 pt-24">
                 <div className="absolute inset-0 z-0 pointer-events-none">
                     <div className="absolute inset-0 bg-[radial-gradient(#cbd5e1_1px,transparent_1px)] bg-size-[24px_24px] opacity-40"></div>
                     <div className="absolute top-[-20%] left-[-10%] w-[40%] h-[40%] rounded-full bg-sekolah-biru/10 blur-[80px]"></div>
@@ -189,21 +189,21 @@ export default function HalamanFasilitas() {
                                 className="bg-white rounded-3xl border border-slate-200/80 overflow-hidden shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all duration-300 flex flex-col group"
                             >
                                 {/* Foto Fasilitas */}
-                                <div className="relative w-full aspect-[16/10] bg-slate-100 overflow-hidden">
+                                <div className="relative w-full aspect-16/10 bg-slate-100 overflow-hidden">
                                     <Image
                                         src={item.img}
                                         alt={item.title}
                                         fill
                                         className="object-cover group-hover:scale-105 transition-transform duration-500"
                                     />
-                                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-transparent to-transparent"></div>
+                                    <div className="absolute inset-0 bg-linear-to-t from-slate-950/60 via-transparent to-transparent"></div>
                                     <span className="absolute bottom-3 left-4 px-3 py-1 bg-white/90 backdrop-blur-md rounded-full text-[11px] font-bold text-slate-800 shadow-sm">
                                         {item.kategori}
                                     </span>
                                 </div>
 
                                 {/* Konten Kartu */}
-                                <div className="p-6 flex flex-col flex-grow justify-between">
+                                <div className="p-6 flex flex-col grow justify-between">
                                     <div>
                                         <div className="flex items-center gap-2 mb-3">
                                             <div className="w-8 h-8 rounded-xl bg-slate-100 flex items-center justify-center text-slate-700 group-hover:bg-sekolah-biru group-hover:text-white transition-colors">

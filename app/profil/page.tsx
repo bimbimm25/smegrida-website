@@ -111,8 +111,7 @@ export default function ProfilSekolah() {
                     {/* Teks Visi & Misi di Kanan */}
                     <motion.div 
                         initial="hidden" whileInView="visible" viewport={{ once: true }} variants={fadeUp}
-                        className="w-full lg:w-7/12 flex flex-col"
-                    >
+                        className="w-full lg:w-7/12 flex flex-col">
                         <h2 className="text-2xl md:text-3xl font-black text-slate-900 mb-8 tracking-tight">
                             Visi & Misi Sekolah
                         </h2>
